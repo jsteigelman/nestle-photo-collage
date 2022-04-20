@@ -2,11 +2,13 @@ const DisplayImages = ({ images }) => {
 
   const startStyle = {
     alignItems: 'center',
+    color: 'white',
     display: 'flex',
-    fontSize: '30px',
+    fontSize: '50px',
+    fontWeight: '700',
     height: '100vh',
     justifyContent: 'center',
-
+    textShadow: '1px 1px 1px #0f0f0f',
   }
   const divStyle = {
     display: 'block'
