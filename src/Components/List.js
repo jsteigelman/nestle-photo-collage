@@ -20,27 +20,53 @@ import alpo from './../images/alpo.png'
 import purina from './../images/purina.png'
 import libbys from './../images/libbys.png'
 
+import leancuisine from './../images/leancuisine.png'
+import kidcuisine from './../images/kidcuisine.png'
+import tombstone from './../images/tombstone.png'
+import sweetearth from './../images/sweetearth.png'
+import abuelita from './../images/abuelita.png'
+import cheerios from './../images/cheerios.png'
+import bluebottle from './../images/bluebottle.png'
+import nespresso from './../images/nespresso.png'
+import maggi from './../images/maggi.png'
+import dreyers from './../images/dreyers.png'
+import boost from './../images/boost.png'
+import nestea from './../images/nestea.png'
+
+
 const List = [
+    abuelita,
     acquapanna,
     alpo,
+    bluebottle,
+    boost,
     buitoni,
     carnation,
+    cheerios,
     coffeemate,
     deerpark,
     digiorno,
+    dreyers,
     fancyfeast,
     gerber,
     haagendazs,
     hotpockets,
+    kidcuisine,
+    leancuisine,
     libbys,
+    maggi,
+    nespresso,
+    nestea,
     perrier,
     polandspring,
     purina,
     sanpellegrino,
     starbucks,
     stouffers,
+    sweetearth,
     tidycats,
-    tollhouse
+    tollhouse,
+    tombstone
 ]
 
 export default List
