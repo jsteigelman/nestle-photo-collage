@@ -7,6 +7,15 @@ import DisplayImages from './Components/DisplayImages'
 function App() {
   const [images, setImages] = useState([])
   const [count, setCount] = useState(0)
+  const [backgroundCount, setBackgroundCount] = useState(0.5)
+
+  const backgroundStyle = {
+    backgroundColor: 'rgba(255, 0, 255, ' + backgroundCount + ')',
+    textAlign: 'center',
+    width: '100%',
+    height: '100vh',
+    overflow: 'hidden',
+  }
 
   const handleAddImage = (event) => {
 
@@ -22,6 +31,9 @@ function App() {
     let newArray = images.slice()
     newArray.push(newImage)
     setImages(newArray)
+    const increaseAlpha = backgroundCount + 0.05
+    setBackgroundCount(increaseAlpha)
+    console.log('backgroundcount: ', backgroundCount)
 
     // loop through list of available image files by incrementing count
     const availableImageFiles = List.length
@@ -32,7 +44,7 @@ function App() {
   }
 
   return (
-    <div className='App' onMouseDown={handleAddImage} >
+    <div className='App' onMouseDown={handleAddImage} style={backgroundStyle}>
       <DisplayImages images={images} />
     </div>
   )
