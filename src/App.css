@@ -26,3 +26,12 @@ body {
 img {
   animation: fadeIn 0.5s;
 }
+
+img:hover {
+  z-index: 10;
+}
+
+.productImage:hover {
+  z-index: 10;
+
+}
