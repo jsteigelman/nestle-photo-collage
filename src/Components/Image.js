@@ -7,7 +7,7 @@ const Image = ({src, x, y}) => {
         maxHeight: '300px',
         maxWidth: '600px',
         position: 'absolute',
-        transform: 'translate(-50%, -50%) scale(0.5)'   
+        transform: 'translate(-50%, -50%) scale(0.5) rotate(' + (Math.random() * 20 - 10) + 'deg)' 
     }
 
     return (
