@@ -38,7 +38,7 @@ function App() {
     let newArray = images.slice()
     newArray.push(newImage)
     setImages(newArray)
-    const increaseAlpha = backgroundCount + 0.05
+    const increaseAlpha = backgroundCount + 0.02
     setBackgroundCount(increaseAlpha)
     console.log('backgroundcount: ', backgroundCount)
 
