@@ -16,3 +16,4 @@ Nestle is consistently ranked as one of the world's top plastic polluters. -->
 * [React.js](https://reactjs.org/) - React.js is a JavaScript library for building user interfaces
 
 ## Preview
+<img width="800" alt="Preview of website" src="https://user-images.githubusercontent.com/65603938/164313395-fcc134ec-6ecb-4bc6-a098-d5b2d4e821a5.png">
