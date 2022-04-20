@@ -4,7 +4,7 @@
 This is a clickable photo collage! Click anywhere on the screen to place an image. 
 
 <!-- ### Why Nestle?
-Nestle is consistently ranked as one of the world's top plastic polluters.  -->
+Nestle is consistently ranked as one of the world's top plastic polluters. -->
 
 ## Live Site URL
 [https://nestlebrands.netlify.app](https://nestlebrands.netlify.app)
