@@ -1,4 +1,4 @@
-# Nestle Brands (Clickable Photo Collage)
+# Nestle Brands
 
 ## Description
 This is a clickable photo collage website! Click anywhere on the screen to place an image. 
