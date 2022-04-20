@@ -1,40 +1,39 @@
 body {
-  /* background-color: rgb(113, 113, 225); */
-  /* background-color: rgba(255, 0, 255, 1); */
-
-  background-image: url('./images/supermarket.jpg');
+  /* background-image: url('./images/supermarket.jpg');
   background-repeat: no-repeat;
   background-color: rgba(255, 0, 255, 1);
+  background-size: cover; */
+
+  background: url('./images/supermarket.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
-
  .App {
-  /* background-color: rgba(255, 0, 255, 1); */
-
   text-align: center;
   width: 100%;
   height: 100vh;
   overflow: hidden;
 } 
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
 
-img {
+/* img {
   animation: fadeIn 0.5s;
-}
+} */
 
 
+/* @media only screen and (min-width: 600px) {
+  body {
+    background-image: url('./images/supermarket.jpg');
+    background-repeat: no-repeat;
+    background-color: rgba(255, 0, 255, 1);
+    background-size: cover;
+  }
+} */
 
