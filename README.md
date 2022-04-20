@@ -10,7 +10,7 @@ Nestle is consistently ranked as one of the world's top plastic polluters.  -->
 [https://nestlebrands.netlify.app](https://nestlebrands.netlify.app)
 
 ## Functionality
-* User can place image by clicking anywhere on the website
+* User can place an image by clicking anywhere on the website
 
 ## Built With
 * [React.js](https://reactjs.org/) - React.js is a JavaScript library for building user interfaces
