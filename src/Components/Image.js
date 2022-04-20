@@ -5,7 +5,7 @@ const Image = ({src, x, y}) => {
         left: x + 'px',
         top: y + 'px',
         maxHeight: '300px',
-        maxWidth: '300px',
+        maxWidth: '600px',
         position: 'absolute',
         transform: 'translate(-50%, -50%) scale(0.5)'   
     }

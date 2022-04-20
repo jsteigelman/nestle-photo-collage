@@ -5,7 +5,7 @@ import hotpockets from './../images/hotpockets.png'
 const List = [
     gerber,
     haagendazs,
-    hotpockets,
+    hotpockets
 ]
 
 export default List
