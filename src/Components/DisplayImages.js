@@ -1,5 +1,3 @@
-import Image from './Image'
-
 const DisplayImages = ({ images }) => {
   const imagesArray = images.map((image) => image)
   const result = images.length === 0 ? '' : imagesArray
