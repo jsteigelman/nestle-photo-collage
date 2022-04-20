@@ -18,14 +18,21 @@ function App() {
   }
 
   const handleAddImage = (event) => {
-
     // dev testing
     console.log(`The coords are ${event.clientX}, ${event.clientY}`)
     console.log('Handle add image is running')
 
     // create new image component
-    const imageSrc = List[count]
-    const newImage = <Image key={Math.floor(Math.random() * 500)} src={imageSrc} x={event.clientX} y={event.clientY} />
+    const imageSrc = List[count][0]
+    const newImage = (
+      <Image
+        key={Math.floor(Math.random() * 500)}
+        size={List[count][1]}
+        src={imageSrc}
+        x={event.clientX}
+        y={event.clientY}
+      />
+    )
 
     // save image component to list
     let newArray = images.slice()

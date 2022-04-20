@@ -34,7 +34,7 @@ import boost from './../images/boost.png'
 import nestea from './../images/nestea.png'
 
 
-const List = [
+const List_1 = [
     abuelita,
     acquapanna,
     alpo,
@@ -68,5 +68,41 @@ const List = [
     tollhouse,
     tombstone
 ]
+
+const List = [
+    [abuelita, 'm'],
+    [acquapanna, 'xl'],
+    [alpo, 'm'],
+    [bluebottle, 'xl'],
+    [boost, 'l'],
+    [buitoni, 'm'],
+    [carnation, 'm'],
+    [cheerios, 'm'],
+    [coffeemate, 'l'],
+    [deerpark, 'm'],
+    [digiorno, 'm'],
+    [dreyers, 's'],
+    [fancyfeast, 'm'],
+    [gerber, 'm'],
+    [haagendazs, 's'],
+    [hotpockets, 'm'],
+    [kidcuisine, 'm'],
+    [leancuisine, 'm'],
+    [libbys, 'm'],
+    [maggi, 's'],
+    [nespresso, 'm'],
+    [nestea, 'l'],
+    [perrier, 'xl'],
+    [polandspring, 'xl'],
+    [purina, 'm'],
+    [sanpellegrino, 'xl'],
+    [starbucks, 'm'],
+    [stouffers, 'm'],
+    [sweetearth, 'm'],
+    [tidycats, 'm'],
+    [tollhouse, 'm'],
+    [tombstone, 'm']
+]
+
 
 export default List
