@@ -10,7 +10,6 @@ function App() {
   const [backgroundCount, setBackgroundCount] = useState(0.5)
 
   const backgroundStyle = {
-    backgroundColor: 'rgba(255, 0, 255, ' + backgroundCount + ')',
     textAlign: 'center',
     width: '100%',
     height: '100vh',
